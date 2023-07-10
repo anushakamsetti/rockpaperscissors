@@ -28,7 +28,7 @@ const GameResultsView = props => {
           </GameButton>
           <GameButton
             type="button"
-            data-testid="scissorButton"
+            data-testid="scissorsButton"
             onClick={() => checkResult(choicesList[1].id)}
           >
             <GameImage
